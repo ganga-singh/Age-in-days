@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+}
+
+.main {
+    max-width: 1000px;
+    margin: auto;
+}
+
+.row
+{
+	margin-top: 0.5em;
+	padding: 8px;
+}
+
+.row,
+.row > .column {
+    padding: 8px;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+}
+
+.content {
+	border-radius: 5%;
+    background-color: rgba(229, 199, 237,0.7);
+    padding: 10px;
+}
+
+.info
+{
+	font-family: cursive;
+	font-style: italic;
+}
+
+#button 
+{
+	text-align: center;
+	float: center;
+	margin-top: 24%;
+	clear: all;
+}
+#zoom
+{
+	cursor: pointer;
+	color: rgb(127,20,3); 
+	font-size:150%; 
+	font-family: monospace;
+	 font-weight:bold; 
+	border: 5px ridge rgb(127,20,3); 
+	height: 2em; 
+	width: 15%; 
+	background-color: rgb(242, 222, 238);
+	border-radius: 10%;
+}
+
+#zoom:hover
+{
+	font-size: 170%;
+}
+
