@@ -187,7 +187,7 @@ function Age()
 	
 	if(bday >= tday && bmo >= tmo && byr >= tyr)
    {
-    alert("INVALID DATE OF BIRTH")
+    alert("INVALID DATE OF BIRTH");
    }
 	 
 	else 
@@ -199,7 +199,7 @@ function Age()
 	
 	else 
    {
-    alert("INVALID DATE OF BIRTH")
+    alert("INVALID DATE OF BIRTH");
    }
    
 }
