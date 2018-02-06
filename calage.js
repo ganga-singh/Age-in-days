@@ -184,15 +184,19 @@ function Age()
     }
 
    tdOfAge = tdyears+tdby+tdpy+tdbm+tdpm;
-
-    alert("Wohooo !!! You have spend "+tdOfAge+ " days of your life  .. MAY YOU LIVE LONG");
-}
-
-   else if(bday >= tday && bmo >= tmo && byr >= tyr)
+	
+	if(bday >= tday && bmo >= tmo && byr >= tyr)
    {
     alert("INVALID DATE OF BIRTH")
    }
 	 
+	else 
+   {
+
+    alert("Wohooo !!! You have spend "+tdOfAge+ " days of your life  .. MAY YOU LIVE LONG");
+	   }
+}
+	
 	else 
    {
     alert("INVALID DATE OF BIRTH")
