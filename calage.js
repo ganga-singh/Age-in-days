@@ -24,7 +24,6 @@ function Age()
  if((bday >=1 && bday <= 31) && (bmo >= 1 && bmo <= 12) && (byr >=1800 && byr <= tyr))
   
 {   
-  alert(tyr);
 	var isLeapYear = function(year)
 	{
 		return ((year % 4 == 0) && (year % 100 != 0)) || (year % 400 == 0);
