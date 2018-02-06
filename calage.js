@@ -21,7 +21,7 @@ function Age()
 	tyr=(now.getFullYear());
    
 
- if((bday >=1 && bday <= 31) && (bmo >= 1 && bmo <= 12) && (byr >=1800 && byr <= tyr))
+ if((bday >=1 && bday <= 31) && (bmo >= 1 && bmo <= 12) && (byr >=1800 && byr < tyr))
   
 {   
 
@@ -189,6 +189,11 @@ function Age()
 }
 
    else if(bday >= tday && bmo >= tmo && byr >= tyr)
+   {
+    alert("INVALID DATE OF BIRTH")
+   }
+	 
+	else 
    {
     alert("INVALID DATE OF BIRTH")
    }
