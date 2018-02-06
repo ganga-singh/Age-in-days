@@ -188,7 +188,7 @@ function Age()
     alert("Wohooo !!! You have spend "+tdOfAge+ " days of your life  .. MAY YOU LIVE LONG");
 }
 
-   else
+   else if(bday >= tday && bmo >= tmo && byr >= tyr)
    {
     alert("INVALID DATE OF BIRTH")
    }
