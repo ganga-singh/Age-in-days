@@ -192,7 +192,7 @@ function Age()
 	
 	else 
    {
-    alert("INVALID DATE OF BIRTH 2");
+    alert("INVALID DATE OF BIRTH");
    }
    
 }
