@@ -286,7 +286,6 @@ function Age()
 
     tdOfAge =tdby+tdbm+tdpm;
 
-    alert( tdby + " " + tdbm + " " + tdpm);
 
     alert("Wohooo !!! You have spend "+tdOfAge+ " days of your life  .. MAY YOU LIVE LONG");
 
@@ -303,7 +302,7 @@ function Age()
 
     tdOfAge = tdbm;
 
-    alert(tdbm);
+   
 
     alert("Wohooo !!! You have spend "+tdOfAge+ " days of your life  .. MAY YOU LIVE LONG");
     
