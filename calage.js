@@ -19,6 +19,8 @@ function Age()
 	tday=now.getDate();
 	tmo=(now.getMonth()+1);
 	tyr=(now.getFullYear());
+
+  alert(bday + " " + bmo + " " + byr);
    
 
  if((bday >=1 && bday <= 31) && (bmo >= 1 && bmo <= 12) && (byr >=1800 && byr <= tyr))
